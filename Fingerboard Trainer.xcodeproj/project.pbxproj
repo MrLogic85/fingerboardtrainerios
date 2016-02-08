@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81744E3B1C6899B700719361 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81744E3A1C6899B700719361 /* AppDelegate.swift */; };
+		81744E3D1C6899B700719361 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81744E3C1C6899B700719361 /* ViewController.swift */; };
+		81744E401C6899B700719361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81744E3E1C6899B700719361 /* Main.storyboard */; };
+		81744E431C6899B700719361 /* Fingerboard_Trainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81744E411C6899B700719361 /* Fingerboard_Trainer.xcdatamodeld */; };
+		81744E451C6899B700719361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81744E441C6899B700719361 /* Assets.xcassets */; };
+		81744E481C6899B700719361 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81744E461C6899B700719361 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81744E371C6899B700719361 /* Fingerboard Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fingerboard Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81744E3A1C6899B700719361 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81744E3C1C6899B700719361 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81744E3F1C6899B700719361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81744E421C6899B700719361 /* Fingerboard_Trainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fingerboard_Trainer.xcdatamodel; sourceTree = "<group>"; };
+		81744E441C6899B700719361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81744E471C6899B700719361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81744E491C6899B700719361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81744E341C6899B700719361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81744E2E1C6899B700719361 = {
+			isa = PBXGroup;
+			children = (
+				81744E391C6899B700719361 /* Fingerboard Trainer */,
+				81744E381C6899B700719361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81744E381C6899B700719361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81744E371C6899B700719361 /* Fingerboard Trainer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81744E391C6899B700719361 /* Fingerboard Trainer */ = {
+			isa = PBXGroup;
+			children = (
+				81744E3A1C6899B700719361 /* AppDelegate.swift */,
+				81744E3C1C6899B700719361 /* ViewController.swift */,
+				81744E3E1C6899B700719361 /* Main.storyboard */,
+				81744E441C6899B700719361 /* Assets.xcassets */,
+				81744E461C6899B700719361 /* LaunchScreen.storyboard */,
+				81744E491C6899B700719361 /* Info.plist */,
+				81744E411C6899B700719361 /* Fingerboard_Trainer.xcdatamodeld */,
+			);
+			path = "Fingerboard Trainer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81744E361C6899B700719361 /* Fingerboard Trainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81744E4C1C6899B700719361 /* Build configuration list for PBXNativeTarget "Fingerboard Trainer" */;
+			buildPhases = (
+				81744E331C6899B700719361 /* Sources */,
+				81744E341C6899B700719361 /* Frameworks */,
+				81744E351C6899B700719361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fingerboard Trainer";
+			productName = "Fingerboard Trainer";
+			productReference = 81744E371C6899B700719361 /* Fingerboard Trainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81744E2F1C6899B700719361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Fredrik Metcalf";
+				TargetAttributes = {
+					81744E361C6899B700719361 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 81744E321C6899B700719361 /* Build configuration list for PBXProject "Fingerboard Trainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81744E2E1C6899B700719361;
+			productRefGroup = 81744E381C6899B700719361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81744E361C6899B700719361 /* Fingerboard Trainer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81744E351C6899B700719361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81744E481C6899B700719361 /* LaunchScreen.storyboard in Resources */,
+				81744E451C6899B700719361 /* Assets.xcassets in Resources */,
+				81744E401C6899B700719361 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81744E331C6899B700719361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81744E3D1C6899B700719361 /* ViewController.swift in Sources */,
+				81744E3B1C6899B700719361 /* AppDelegate.swift in Sources */,
+				81744E431C6899B700719361 /* Fingerboard_Trainer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81744E3E1C6899B700719361 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81744E3F1C6899B700719361 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81744E461C6899B700719361 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81744E471C6899B700719361 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81744E4A1C6899B700719361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81744E4B1C6899B700719361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81744E4D1C6899B700719361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fingerboard Trainer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sleepyduckstudio.Fingerboard-Trainer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81744E4E1C6899B700719361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fingerboard Trainer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sleepyduckstudio.Fingerboard-Trainer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81744E321C6899B700719361 /* Build configuration list for PBXProject "Fingerboard Trainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81744E4A1C6899B700719361 /* Debug */,
+				81744E4B1C6899B700719361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81744E4C1C6899B700719361 /* Build configuration list for PBXNativeTarget "Fingerboard Trainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81744E4D1C6899B700719361 /* Debug */,
+				81744E4E1C6899B700719361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		81744E411C6899B700719361 /* Fingerboard_Trainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				81744E421C6899B700719361 /* Fingerboard_Trainer.xcdatamodel */,
+			);
+			currentVersion = 81744E421C6899B700719361 /* Fingerboard_Trainer.xcdatamodel */;
+			path = Fingerboard_Trainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 81744E2F1C6899B700719361 /* Project object */;
+}
